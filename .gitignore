@@ -1,10 +1,6 @@
-# Ignorar dados e arquivos pesados
+.venv/
+__pycache__/
+*.pyc
 data/
 *.csv
-*.zip
-*.parquet
-
-# Ignorar arquivos temporários do Python e Jupyter
-__pycache__/
 .ipynb_checkpoints/
-.env
